@@ -7,7 +7,7 @@ const Scheme = mongoose.Schema;
 
 
 const userSchema = new Schema({
-	username:{
+	username:{   //adding validations to user field
 		type: String,
 		required: true,
 		unique: true,
