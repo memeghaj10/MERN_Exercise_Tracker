@@ -6,7 +6,7 @@ let User = require('../models/user.model');
 //Handles the GET request
 router.route('/').get((req,res) => {
 	User.find()	//results are returned in JSON format
-	.then(user => res.json(users))
+	.then(users => res.json(users))
 	.catch(err => res.status(400).json('Error: '+err));
 });
 
