@@ -23,4 +23,4 @@ The app is used for keeping a track of the `duration`, `time-limit` and regulari
 For maintainning the Database of User and his/her activity I have 
 connected the routers/models to my `MongoDB_Atlas` cluster.
 
-![GitHub Logo](/images/Screenshot(1709).png)
+![GitHub Logo](/images/Screenshot (1709).png)
